@@ -1,0 +1,43 @@
+.img-wrapper {
+  background: red;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+.lft {
+  margin-right: 3em;
+}
+
+.active {
+  color: black;
+}
+
+.inActive {
+  color: rgb(219, 214, 214);
+}
+
+.wrap {
+  transition: ease-out 1s;
+}
+
+.img {
+  width: 500px;
+  height: 400px;
+  background: yellow;
+  border: solid 1px green;
+}
+
+.wrap:last-child {
+  margin-right: 0;
+}
+.wrap:last-child .img {
+  width: 600px;
+}
